@@ -10,4 +10,4 @@ r = 6.371 * math.pow(10, 6)
 
 
 a = (c * m)/((r + v)*(r+v))
-print(a)
+print("Gravitacijski pospešek na nadmorski višini " + str(v) + "m = " + str(a) + "m/s2")
